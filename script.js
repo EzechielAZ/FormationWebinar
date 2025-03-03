@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Fermer le modal après 3 secondes
                 setTimeout(() => {
                     successModal.style.display = "none";
-                }, 3000);
+                }, 10000);
             } else {
                 alert("Une erreur est survenue lors de l'envoi du formulaire.");
             }
